@@ -1,10 +1,4 @@
 # 6G-DDoS-Simulation-Dataset
-# 6G RAN DDoS Attack Simulator & Monitoring System
-
-> **Responsible AI = GenAI + Agentic AI + Ethics**  
-> AI-Driven Intelligent Decision Support System for Detecting Anomalies in 6G Radio Access Networks
-
-**Responsible AI Lab | CUTM-AP | AY 2025-26**
 
 ---
 
@@ -74,51 +68,13 @@ The **6G RAN DDoS Attack Simulator** is a comprehensive system for:
 ---
 
 ## 🏗️ Architecture
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/0db407e5-c2fa-4ac1-83fd-be9dd25952fb" />
 
-```
-Legitimate 6G Traffic
-         ↓
-   Traffic Monitoring  (Passive observation)
-         ↓
-  DDoS Attack Injection  (Simulate attacks)
-         ↓
-   Edge Congestion   (Network stress modeling)
-         ↓
-  Feature Extraction  (Extract 6+ features)
-         ↓
-  AI-based Labeling   (Classification + confidence)
-         ↓
-  Dataset Generation  (CSV, Parquet, JSON)
-```
 
 ### System Components
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    WEB DASHBOARD                            │
-│         (Interactive Simulation Control & Monitoring)       │
-└──────────────┬──────────────────────────────────────────────┘
-               │
-        ┌──────▼─────────┐
-        │  REST API      │
-        │  WebSocket     │
-        └──────┬─────────┘
-               │
-        ┌──────▼───────────────────────────────────┐
-        │   MONITORING SERVER (Flask)              │
-        │  - Simulation Management                 │
-        │  - Real-time Updates                     │
-        │  - Dataset Export                        │
-        └──────┬───────────────────────────────────┘
-               │
-        ┌──────▼───────────────────────────────────┐
-        │   SIMULATION ENGINE                      │
-        │  - Traffic Generator                     │
-        │  - Feature Extractor                     │
-        │  - AI Labeler                            │
-        │  - Dataset Manager                       │
-        └────────────────────────────────────────┘
-```
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/246cf081-2a10-44a8-ada8-a5225e36fdd0" />
+
 
 ---
 
