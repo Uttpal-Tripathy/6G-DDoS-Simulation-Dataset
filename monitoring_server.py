@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""
-6G RAN DDoS Monitoring Server - Flask REST API
-Real-time monitoring and dataset management
-Responsible AI Lab | CUTM-AP | AY 2025-26
-"""
+
 
 from flask import Flask, jsonify, request, send_file
 from flask_cors import CORS
