@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-6G RAN DDoS Attack Simulator - Core Engine
-Responsible AI Lab | CUTM-AP | AY 2025-26
-"""
+
 
 import numpy as np
 import pandas as pd
