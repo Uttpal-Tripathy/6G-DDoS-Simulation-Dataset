@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""
-6G RAN DDoS Dataset Generator
-Generates large-scale datasets for machine learning
-Produces 50,000+ entries per minute
-Responsible AI Lab | CUTM-AP | AY 2025-26
-"""
-
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
