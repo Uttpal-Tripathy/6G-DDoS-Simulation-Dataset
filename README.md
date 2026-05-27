@@ -560,7 +560,7 @@ If you use this simulator in your research, please cite:
 
 ```bibtex
 @software{6g_ddos_simulator_2026,
-  author = {Responsible AI Lab, CUTM-AP},
+  author = {Uttpal Tripathy, CUTM-AP},
   title = {6G RAN DDoS Attack Simulator and Monitoring System},
   year = {2026},
   url = {https://github.com/cutm-ap/6g-ran-ddos-simulator}
